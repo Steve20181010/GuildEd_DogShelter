@@ -31,7 +31,7 @@ def validate_input(s,m,l):
 
 
 if __name__ == "__main__":
-    print("Hi Steve!")
+    # print("Hi Steve!")
     print("Enter number of small dogs ==> ")
     small_dog_amt = input()
 
