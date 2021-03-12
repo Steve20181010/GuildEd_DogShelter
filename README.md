@@ -31,18 +31,30 @@ Unit Tests are in two categories:
 1. Data Entry Validation (frontend)
 2. Calculate dogfood to order (backend testing)
 
-Data entry validation tests:
+Data entry validation tests: 
+
     # Test Max Dogs equal max 30
+
     # Test Max Dogs greater than 30
+
     # Test Dog numbers cannot be negative numbers
+
     # Test Max Dogs equal 0
+
     # Test Max Dogs way large
+
     # Test Invalid Smll Dogs entry (entered string)
+
     # Test Invalid Med Dogs entry (entered string)
+
     # Test Invalid Big Dogs entry (entered string)
 
 Calculate dog food order amount tests:
+
     # Test order quantity equal 363.6
+
     # Test order quantity equal 1059.6
+
     # Test leftover quantity is negative and calc'ed equal to -20.4
+
     # Test order quantity equal 630.0
