@@ -19,7 +19,7 @@ To execute unit tests (from cloned directory):
 About the app:
 The following application parameters have been configured:
 
-    PRM_SMLLDOGS_LBS = 10
+    PRM_SMLL_DOGS_LBS = 10
     PRM_MED_DOGS_LBS = 20
     PRM_LRG_DOGS_LBS = 30
     PRM_AMT_MULTIPLIER = .2
@@ -44,7 +44,5 @@ Data entry validation tests:
 Calculate dog food order amount tests:
     # Test order quantity equal 363.6
     # Test order quantity equal 1059.6
-    # Test leftover quantity is negative and equal to -20.4
+    # Test leftover quantity is negative and calc'ed equal to -20.4
     # Test order quantity equal 630.0
-
-
